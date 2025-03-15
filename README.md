@@ -2,14 +2,17 @@
 
 ### How to run it on your own machine
 
-1. Install the requirements
-
+1. Install library
+   ```
+   $ pip install pandas matplotlib seaborn streamlit
+   ```
+   
+3. Install requirements
    ```
    $ pip install -r requirements.txt
    ```
 
-2. Run the app
-
+4. Run the app
    ```
    $ streamlit run dashboard.py
    ```
